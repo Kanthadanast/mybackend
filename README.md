@@ -15,3 +15,8 @@
 
 ---
 #### in prisma.config.ts เปลี่ยนเป็น prisma-client-js แล้ว //output
+---
+#### install express
+* npm i express
+* เพิ่มเนื้อหาใน /test1/route/index.js
+* run node index.js
