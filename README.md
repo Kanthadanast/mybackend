@@ -20,3 +20,8 @@
 * npm i express
 * เพิ่มเนื้อหาใน /test1/route/index.js
 * run node index.js
+---
+##### npm i short-unique-id
+- const ShortUniqueId = require('short-unique-id');
+- const uid = new ShortUniqueId({ length: 10 }); // Set the desired length of the ID
+- console.log(uid.rnd()); // Generates a random unique ID
